@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Translator</title>
+  <style>
+    body {
+      color: black; /* Set text color to black */
+    }
+    #translated-text {
+      color: black !important; /* Set translated text color to black */
+    }
+  </style>
+</head>
+<body>
+  <label for="target-lang">Select Language:</label>
+  <select id="target-lang">
+    <option value="en">English</option>
+    <option value="fr">French</option>
+    <option value="es">Spanish</option>
+    <!-- Add more languages as needed -->
+  </select>
+  <br><br>
+  <textarea id="input-text" placeholder="Enter text to translate" style="color: black;"></textarea>
+  <br><br>
+  <button id="translate-button">Translate</button>
+  <br><br>
+  <div id="translated-text"></div> <!-- Container for translated text -->
+  <script src="popup.js"></script>
+</body>
+</html>

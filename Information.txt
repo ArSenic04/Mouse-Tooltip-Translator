@@ -1,0 +1,15 @@
+✔️first load Unpacked of your project folder.
+✔️Make sure that developer mode is on.
+✔️then on you browser right click.
+    ->Inspect.
+    ->Sources on top bar.
+    ->left column, there you will see Overrides, if not click >> there you will get.
+    ->select folder for Overrides, that is your project folder.
+    ->Allow Webiste or google to load you Overrides.
+✔️Boom your project is loaded on browser.
+
+✔️I am working on Direct usage of this extension without this Overrides.
+
+✔️Also working on multiple languages , So stay Tunned.
+
+✔️Make sure you remove Overrides when not required.
